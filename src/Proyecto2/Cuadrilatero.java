@@ -10,6 +10,7 @@ package Proyecto2;
  * @author ol196
  */
 public abstract class Cuadrilatero {
+    
     public abstract double getAreaRectangulo();
    
     public abstract double getAreaTrapecio();

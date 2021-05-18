@@ -25,6 +25,7 @@ public class Main {
      
      
         System.out.println("------Cuadrado-----");
+        
         System.out.print("Ingresa el valor de x:");
         xCuadrado=sc.nextDouble();
         
@@ -33,7 +34,7 @@ public class Main {
         
         c1=new Cuadrado(xCuadrado);
       
-        System.out.println("La area es: " + c1.getArea());
+        System.out.println("La area del cuadrado  es: " + c1.getArea());
         
         System.out.println("----------Rectangulo------");
         
@@ -45,20 +46,18 @@ public class Main {
         
         c2 = new Rectangulo(xRectangulo,yRectangulo);
         
-        System.out.println("Cuadrado");
-        System.out.println("La area es: " + c2.getAreaRectangulo());
+ 
+        System.out.println("La area del rectangulo es: " + c2.getAreaRectangulo());
         
         System.out.println("---------Trapecio----------");
          
-       
-       
-        System.out.println("Trapecio");
+  
        
         
-        System.out.println("Base m Mayor");
+        System.out.println("Base M Mayor");
         BaseMTrapecio=sc.nextDouble();
         
-        System.out.println("Base M menor");
+        System.out.println("Base m Menor");
         BasemTrapecio=sc.nextDouble();
         
          
@@ -68,14 +67,11 @@ public class Main {
        
         
         c3 = new Trapecio(BasemTrapecio,BaseMTrapecio,altura);
-        System.out.println("area: " + c3.getAreaTrapecio());
+        System.out.println("area del trapecio: " + c3.getAreaTrapecio());
         
        
         
     }
 
-    private static void preguntar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+  
 }
